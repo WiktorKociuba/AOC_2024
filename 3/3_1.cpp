@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(0);
     ll wyn = 0;
-    regex pattern("mul\\([0-9]+,[0-9]+\\)"), pat2("do\\(\\)"), pat3("don't\\(\\)");
+    regex pattern("mul\\([0-9]+,[0-9]+\\)");
     vector<int> dos, donts;
     for(int i = 0; i < 6; i++){
         dos.clear();donts.clear();
