@@ -37,3 +37,5 @@
 13/13.in
 13/13_2
 13/13_1
+.aoc_tiles/*
+!.aoc_tiles/tiles/
